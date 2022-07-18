@@ -1,2 +1,8 @@
 import './style.css'
-console.log('d')
+import React from 'react'
+import ReactDOM from 'react-dom/client';
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+   <h1>Some hello</h1>
+)
+console.log('some log')
